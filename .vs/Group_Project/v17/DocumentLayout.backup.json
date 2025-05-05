@@ -1,66 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\chidi\\source\\repos\\group1_final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Visualization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\models\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:models\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\services\\collisionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\services\\collisionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:services\\collisionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\views\\home\\visualization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:views\\home\\visualization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\models\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:models\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\views\\home\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:views\\home\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\chidi\\source\\repos\\group1_final\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|c:\\users\\bharg\\desktop\\ada\\vs_projects\\group_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8265F78-9FCA-42ED-97C7-3E6C61C87C6E}|Group_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,27 +64,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T23:59:44.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T23:37:48.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollisionsService.cs",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\Services\\CollisionsService.cs",
+              "RelativeDocumentMoniker": "Services\\CollisionsService.cs",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\Services\\CollisionsService.cs",
+              "RelativeToolTip": "Services\\CollisionsService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T23:43:03.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Visualization.cshtml",
               "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Visualization.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Visualization.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Visualization.cshtml",
               "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Visualization.cshtml",
-              "RelativeToolTip": "Views\\Home\\Visualization.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Visualization.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-30T00:14:36.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwEYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T23:45:55.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T23:37:42.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Collision.cs",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Models\\Collision.cs",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\Models\\Collision.cs",
               "RelativeDocumentMoniker": "Models\\Collision.cs",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Models\\Collision.cs",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\Models\\Collision.cs",
               "RelativeToolTip": "Models\\Collision.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,36 +151,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBwAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Read.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Read.cshtml",
+              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Read.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Read.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T23:59:44.345Z"
+              "WhenOpened": "2025-04-30T00:14:23.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwEYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T23:45:55.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\wwwroot\\css\\styles.css",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\wwwroot\\css\\styles.css",
               "RelativeToolTip": "wwwroot\\css\\styles.css",
               "ViewState": "AgIAALQAAAAAAAAAAAAswKwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -135,60 +175,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Read.cshtml",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Read.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Read.cshtml",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Read.cshtml",
-              "RelativeToolTip": "Views\\Home\\Read.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T00:14:23.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAxwFkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T23:37:48.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CollisionsService.cs",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Services\\CollisionsService.cs",
-              "RelativeDocumentMoniker": "Services\\CollisionsService.cs",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Services\\CollisionsService.cs",
-              "RelativeToolTip": "Services\\CollisionsService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T23:43:03.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Delete.cshtml",
               "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Home\\Delete.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Delete.cshtml",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwB0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-30T00:14:11.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -196,35 +199,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Update.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Update.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Update.cshtml",
               "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Update.cshtml",
-              "RelativeToolTip": "Views\\Home\\Update.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Update.cshtml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAYwBkAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-03T21:45:46.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Create.cshtml",
               "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Create.cshtml",
-              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Home\\Create.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-30T00:13:47.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -232,27 +235,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\chidi\\source\\repos\\group1_final\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\chidi\\source\\repos\\group1_final\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-30T00:07:57.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\bharg\\Desktop\\ADA\\VS_Projects\\Group_Project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T23:37:42.608Z"
             }
           ]
         }

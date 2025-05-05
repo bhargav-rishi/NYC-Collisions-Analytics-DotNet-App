@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - NYC Motor Vehicle Collisions Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <main class="container">
+        <section class="about-letter">
+            <h2>A Letter for You</h2>
+            <p>Hello Visitor,</p>
+
+            <p>
+                When we started this project, we did not just want to build another static website, but to use data to tell a story that matters. That is why we chose to work with NYC motor vehicle collision data. It is real, relevant, and behind every number is a person, a moment, a consequence.
+            </p>
+
+            <p>
+                How can data help us understand something as serious as traffic safety? How can we present that in a way that is clear, helpful, and insightful? Those questions guided everything from how we structured the site, to how we designed the charts, built the data model, and collaborated on each part of the project.
+            </p>
+
+            <p>
+                We hope this dashboard reflects the thought, care, and teamwork we poured into it. It is simple, but meaningful to us, and we are proud to share it with you.
+            </p>
+
+            <p style="margin-bottom: 0;">Thank you so much for stopping by,</p>
+			<p style="margin:0; "><strong>Rishi, Safiya, Chi and Karthik.</strong></p>
+        </section>
+
+
+
+        <div class="team">
+            <h3>Our Team</h3>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="~/images/Rishi.jpg" alt="Bhargav Rishi Medisetti">
+                    <h4>Bhargav Rishi Medisetti</h4>
+                    <p><strong>Role:</strong> Project Manager</p>
+                    <div class="contribution-bubble">
+                        “I designed and implemented the Home Page and took the lead in organizing the overall structure of the project.”
+                    </div>
+
+                </div>
+
+                <div class="team-member">
+                    <img src="~/images/Safiya.jpg" alt="Safiya Joseph">
+                    <h4>Safiya Joseph</h4>
+                    <p><strong>Role:</strong> Data Visualization Specialist</p>
+                    <div class="contribution-bubble">
+                        “I built the Data Visualization page and brought the data to life by implementing interactive charts.”
+                    </div>
+             
+                </div>
+
+                <div class="team-member">
+                    <img src="~/images/Chi.jpg" alt="Chi Phuong Diep">
+                    <h4>Chi Phuong Diep</h4>
+                    <p><strong>Role:</strong> Developer</p>
+                    <div class="contribution-bubble">
+                        “I built the About Us page, created the team section, and integrated our ERD model into our site.”
+                    </div>
+
+                </div>
+
+                <div class="team-member">
+                    <img src="~/images/Karthik.jpg" alt="Sudhamshu Karthik Reddy Nagaiaghari">
+                    <h4>Sudhamshu Karthik Reddy Nagaiaghari</h4>
+                    <p><strong>Role:</strong> Developer</p>
+                    <div class="contribution-bubble">
+                        “I was responsible for creating all the CRUD operation pages and ensure site navigation and data management features worked smoothly.”
+                    </div>
+
+
+                </div>
+        </div>
+		<br></br>
+        <div class="data-model">
+            <h3>Logical Data Model</h3>
+            <div class="model-image">
+                <img src="~/images/MotorVehicle_ERD.png" alt="ERD diagram">
+            </div>
+            <p>Our data model includes:</p>
+            <ul>
+                <li><strong>Location</strong> – Contains borough, zip, street, and coordinates.</li>
+                <li><strong>Collision</strong> – Stores date, time, injuries, and related location.</li>
+                <li><strong>Vehicle</strong> – Stores vehicle information involved in a collision.</li>
+            </ul>
+            <p><strong>Design Rationale:</strong> Data is recorded only when a collision occurs. Each collision is linked to one location and may involve multiple vehicles. Additionally, each vehicle can be involved in multiple collisions over time, establishing a many-to-many relationship between collisions and vehicles.</p>
+
+        </div>
+
+
+        <div class="learning">
+            <h3>What We Learned</h3>
+            <ul>
+                <li>How to structure a static website using HTML, CSS, and JavaScript.</li>
+                <li>How to use Chart.js to create simple, clear data visualizations.</li>
+                <li>The value of keeping files and folders well organized.</li>
+                <li>How to design an ERD and understand how entities relate.</li>
+                <li>How to collaborate as a team and merge different parts into one project.</li>
+                <li>How to debug layout and file path issues through testing.</li>
+                <li>Why writing clean, reusable code helps with future updates.</li>
+            </ul>
+        </div>
+
+
+        <div  class="repository">
+            <h3>GitHub Repository</h3>
+            <a href="https://github.com/mbrishi/group1_assignment3_project_weblook" class="repo-button" target="_blank">
+                View Our Project on GitHub
+            </a>
+        </div>
+	</main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 NYC Motor Vehicle Collisions Dashboard</p>
+            </div>
+        </footer>
+</body>
+</html>

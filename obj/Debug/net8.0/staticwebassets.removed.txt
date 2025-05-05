@@ -1,1 +1,3 @@
-C:\Users\bharg\Desktop\ADA\VS_Projects\Group_Project\wwwroot\MotorVehicle_ERD.png
+C:\Users\chidi\source\repos\group1_final\wwwroot\js\charts.js
+C:\Users\chidi\source\repos\group1_final\wwwroot\js\script.js
+C:\Users\chidi\source\repos\group1_final\wwwroot\js\site.js
