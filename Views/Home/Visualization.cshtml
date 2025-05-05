@@ -1,0 +1,218 @@
+@model List<Final_CollisionsMVC_From_HTML.Models.Collision>
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "NYC Collision Dashboard";
+    Layout = "_Layout";
+    var collisionDataJson = JsonConvert.SerializeObject(Model);
+}
+
+<div class="visualization-charts container py-5">
+    <h2 class="text-center mb-5 display-4">NYC Collision Insights</h2>
+    <div class="row g-4">
+        <div class="container">
+        <!-- 1. Collisions by Borough (Doughnut) -->
+        <div class="chart-box">
+        <div class="col-12 col-md-6">
+            <div class="chart-card card h-100 shadow-sm">
+                <div class="card-header bg-warning text-dark">
+                    <h3 class="h6 mb-0">Collisions by Borough</h3>
+                </div>
+                <div class="card-body">
+                    <canvas id="boroughChart"></canvas>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br />
+        <!-- 2. Collisions by Hour (Bar) -->
+        <div class="chart-box">
+        <div class="col-12 col-md-6">
+            <div class="chart-card card h-100 shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h3 class="h6 mb-0">Collisions by Hour</h3>
+                </div>
+                <div class="card-body">
+                    <canvas id="hourChart"></canvas>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br />
+        <!-- 3. Collisions by Year (Bar) -->
+        <div class="chart-box">
+        <div class="col-12 col-md-6">
+            <div class="chart-card card h-100 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="h6 mb-0">Collisions by Year</h3>
+                </div>
+                <div class="card-body">
+                    <canvas id="yearChart"></canvas>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br />
+        <!-- 4. Top Streets by Collisions (Horizontal Bar) -->
+        <div class="chart-box">
+        <div class="col-12 col-md-6">
+            <div class="chart-card card h-100 shadow-sm">
+                <div class="card-header bg-info text-white">
+                    <h3 class="h6 mb-0">Top 5 Streets by Collisions</h3>
+                </div>
+                <div class="card-body">
+                    <canvas id="streetChart"></canvas>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br />
+        <!-- 5. Total Injuries vs Fatalities (Pie) -->
+        <div class="chart-box">
+        <div class="col-12">
+            <div class="chart-card card h-100 shadow-sm">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="h6 mb-0">Total Injuries vs Fatalities</h3>
+                </div>
+                <div class="card-body">
+                    <canvas id="injuryFatalityChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const rawData = @Html.Raw(collisionDataJson);
+
+            // 1. Collisions by Borough
+            const boroughCounts = rawData.reduce((acc, c) => {
+                const b = c.borough && c.borough !== 'N/A' ? c.borough : 'Unknown';
+                acc[b] = (acc[b] || 0) + 1;
+                return acc;
+            }, {});
+            new Chart(document.getElementById('boroughChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(boroughCounts),
+                    datasets: [{
+                        data: Object.values(boroughCounts),
+                        backgroundColor: ['#f9ca24', '#e17055', '#00b894', '#0984e3', '#fd79a8', '#636e72']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom' } }
+                }
+            });
+
+            // 2. Collisions by Hour
+            const hourly = new Array(24).fill(0);
+            rawData.forEach(c => {
+                if (c.crash_time) {
+                    const hour = parseInt(c.crash_time.split(':')[0]);
+                    if (!isNaN(hour) && hour >= 0 && hour <= 23) hourly[hour]++;
+                }
+            });
+            new Chart(document.getElementById('hourChart'), {
+                type: 'bar',
+                data: {
+                    labels: Array.from({length: 24}, (_, i) => `${i}:00`),
+                    datasets: [{
+                        label: 'Collisions',
+                        data: hourly,
+                        backgroundColor: '#74b9ff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+
+            // 3. Collisions by Year
+            const yearCounts = rawData.reduce((acc, c) => {
+                if (c.crash_date) {
+                    const year = new Date(c.crash_date).getFullYear();
+                    acc[year] = (acc[year] || 0) + 1;
+                }
+                return acc;
+            }, {});
+            const sortedYears = Object.keys(yearCounts).sort();
+            new Chart(document.getElementById('yearChart'), {
+                type: 'bar',
+                data: {
+                    labels: sortedYears,
+                    datasets: [{
+                        label: 'Collisions',
+                        data: sortedYears.map(y => yearCounts[y]),
+                        backgroundColor: '#a29bfe'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+
+            // 4. Top 5 Streets by Collisions
+            const streetCounts = rawData.reduce((acc, c) => {
+                const s = c.on_street_name && c.on_street_name !== 'N/A' ? c.on_street_name : 'Unknown';
+                acc[s] = (acc[s] || 0) + 1;
+                return acc;
+            }, {});
+            const topStreets = Object.entries(streetCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5);
+            new Chart(document.getElementById('streetChart'), {
+                type: 'bar',
+                data: {
+                    labels: topStreets.map(s => s[0]),
+                    datasets: [{
+                        label: 'Collisions',
+                        data: topStreets.map(s => s[1]),
+                        backgroundColor: '#00b894'
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: { x: { beginAtZero: true } }
+                }
+            });
+
+            // 5. Total Injuries vs Fatalities
+            let totalInjuries = 0, totalFatalities = 0;
+            rawData.forEach(c => {
+                totalInjuries += parseInt(c.number_of_persons_injured) || 0;
+                totalFatalities += parseInt(c.number_of_persons_killed) || 0;
+            });
+            new Chart(document.getElementById('injuryFatalityChart'), {
+                type: 'pie',
+                data: {
+                    labels: ['Injuries', 'Fatalities'],
+                    datasets: [{
+                        data: [totalInjuries, totalFatalities],
+                        backgroundColor: ['#fdcb6e', '#d63031']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom' } }
+                }
+            });
+        });
+    </script>
+}

@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chidi\\source\\repos\\group1_final\\Group_Project.csproj": {}
+    "/Users/Owner/Documents/Grad_School_OPT/MS_AIBA/ISM 6225 - App Dev for Analytics/Final Project/group1_final_group_project/Group_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chidi\\source\\repos\\group1_final\\Group_Project.csproj": {
+    "/Users/Owner/Documents/Grad_School_OPT/MS_AIBA/ISM 6225 - App Dev for Analytics/Final Project/group1_final_group_project/Group_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chidi\\source\\repos\\group1_final\\Group_Project.csproj",
+        "projectUniqueName": "/Users/Owner/Documents/Grad_School_OPT/MS_AIBA/ISM 6225 - App Dev for Analytics/Final Project/group1_final_group_project/Group_Project.csproj",
         "projectName": "Group_Project",
-        "projectPath": "C:\\Users\\chidi\\source\\repos\\group1_final\\Group_Project.csproj",
-        "packagesPath": "C:\\Users\\chidi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chidi\\source\\repos\\group1_final\\obj\\",
+        "projectPath": "/Users/Owner/Documents/Grad_School_OPT/MS_AIBA/ISM 6225 - App Dev for Analytics/Final Project/group1_final_group_project/Group_Project.csproj",
+        "packagesPath": "/Users/Owner/.nuget/packages/",
+        "outputPath": "/Users/Owner/Documents/Grad_School_OPT/MS_AIBA/ISM 6225 - App Dev for Analytics/Final Project/group1_final_group_project/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\chidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/Owner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,6 +60,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
