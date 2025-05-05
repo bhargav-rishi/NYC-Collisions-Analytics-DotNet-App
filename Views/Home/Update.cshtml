@@ -1,0 +1,82 @@
+@model Final_CollisionsMVC_From_HTML.Models.Collision
+@{
+    ViewData["Title"] = "Update Collision";
+}
+<main class="container">
+    <section class="crud-page">
+        <h2>Update Collision Record</h2>
+
+        <div class="crud-buttons">
+            <button onclick="location.href='@Url.Action("Create", "Home")'" class="primary-button">Report a Collision</button>
+            <button onclick="location.href='@Url.Action("Read", "Home")'" class="primary-button">View/Update a Collision Record</button>
+        </div>
+
+        <div class="form-container">
+            <form asp-action="Update" asp-controller="Home" method="post">
+                <input type="hidden" asp-for="collision_id" />
+
+                <div class="form-group">
+                    <label>Collision ID</label>
+                    <input value="@Model.collision_id" class="form-control" disabled />
+                </div>
+
+                <div class="form-group">
+                    <label for="crash_date">Crash Date</label>
+                    <input asp-for="crash_date" class="form-control" type="date"
+                           value=@(DateTime.TryParse(@Model.crash_date, out var date) ? date.ToString("yyyy-MM-dd") : "N/A") />
+                </div>
+
+                <div class="form-group">
+                    <label for="crash_time">Crash Time</label>
+                    <input asp-for="crash_time" class="form-control" type="time"
+                           value=@(DateTime.TryParse(Model.crash_time, out var time) ? time.ToString("HH:mm") : "N/A") />
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="borough">Borough</label>
+                    <select asp-for="borough" class="form-control">
+                        <option>MANHATTAN</option>
+                        <option>BROOKLYN</option>
+                        <option>QUEENS</option>
+                        <option>BRONX</option>
+                        <option>STATEN ISLAND</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="on_street_name">Street</label>
+                    <input asp-for="on_street_name" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="zip_code">ZIP Code</label>
+                    <input asp-for="zip_code" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="number_of_persons_injured">Injuries</label>
+                    <input asp-for="number_of_persons_injured" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="number_of_persons_killed">Fatalities</label>
+                    <input asp-for="number_of_persons_killed" class="form-control" />
+                </div>
+                <div>
+                    <button type="submit" class="action-btn edit-btn">Update</button>
+                    <button type="button" onclick="location.href='@Url.Action("Read", "Home")'" class="action-btn cancel-btn">Cancel</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+</main>
+
+<section class="crud-explanation">
+    <h3>How "Update" Works</h3>
+    <p>
+        The <strong>Update</strong> operation allows users to modify an existing collision record.
+        Changes are submitted to the backend and reflected immediately on the dashboard and charts.
+    </p>
+</section>

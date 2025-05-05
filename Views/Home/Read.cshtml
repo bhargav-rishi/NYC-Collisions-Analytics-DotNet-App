@@ -1,0 +1,132 @@
+@model List<Final_CollisionsMVC_From_HTML.Models.Collision>
+@{
+    ViewData["Title"] = "Collision Details";
+}
+
+<main class="container">
+    <section class="live-data">
+        <h2>Live NYC Motor Vehicle Collisions</h2>
+
+        <div class="crud-buttons">
+            <button onclick="location.href='@Url.Action("Create", "Home")'">Report a Collision</button>
+            <button disabled>View/Update a Collision Record</button>
+        </div>
+        <div class="table-container">
+            <div class="filter-group">
+                <input type="text" id="searchInput" placeholder="Search records...">
+                <select id="boroughFilter">
+                    <option value="">All Boroughs</option>
+                    <option value="MANHATTAN">Manhattan</option>
+                    <option value="BROOKLYN">Brooklyn</option>
+                    <option value="QUEENS">Queens</option>
+                    <option value="BRONX">Bronx</option>
+                    <option value="STATEN ISLAND">Staten Island</option>
+                </select>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>CollisionID</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Borough</th>
+                        <th>Street</th>
+                        <th>ZIP Code</th>
+                        <th>Injuries</th>
+                        <th>Fatalities</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@(item.collision_id ?? "N/A")</td>
+                            <td>
+                                @(DateTime.TryParse(item.crash_date, out var date) ? date.ToString("MM/dd/yyyy") : "N/A")
+                            </td>
+                            <td>@(item.crash_time ?? "N/A")</td>
+                            <td>@(item.borough ?? "N/A")</td>
+                            <td>@(item.on_street_name ?? "N/A")</td>
+                            <td>@(item.zip_code ?? "N/A")</td>
+                            <td>@(item.number_of_persons_injured?.ToString() ?? "0")</td>
+                            <td>@(item.number_of_persons_killed?.ToString() ?? "0")</td>
+                            <td>
+                                <button onclick="location.href='@Url.Action("Update", "Home", new { id = item.collision_id })'" class="action-btn edit-btn">
+                                    Update
+                                </button>
+
+                                <button onclick="location.href='@Url.Action("Delete", "Home", new { id = item.collision_id })'" class="action-btn delete-btn">
+                                    Delete
+                                </button>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination" style="text-align: center; margin-top: 20px;">
+            @if (ViewBag.Page > 1)
+            {
+                <button onclick="location.href='@Url.Action("LoadCollisions", new { page = ViewBag.Page - 1 })'" class="primary-button">
+                    Previous
+                </button>
+            }
+
+            <span style="margin: 0 15px;">Page @ViewBag.Page of @ViewBag.TotalPages</span>
+
+            @if (ViewBag.HasNextPage)
+            {
+                <button onclick="location.href='@Url.Action("LoadCollisions", new { page = ViewBag.Page + 1 })'" class="primary-button">
+                    Next
+                </button>
+            }
+        </div>
+
+
+
+    </section>
+</main>
+
+<section class="crud-explanation">
+    <h3>How "Read" Works</h3>
+    <p>
+        The <strong>Read</strong> operation displays a list of existing collision records.
+        Users can browse, search, and filter through the data.
+        This page can be enhanced with real-time backend integration and pagination.
+    </p>
+</section>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const searchInput = document.getElementById("searchInput");
+            const boroughFilter = document.getElementById("boroughFilter");
+            const rows = document.querySelectorAll("tbody tr");
+
+            function filterTable() {
+                const searchValue = searchInput.value.toLowerCase();
+                const selectedBorough = boroughFilter.value.toLowerCase();
+
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll("td");
+                    const rowText = Array.from(cells).map(td => td.textContent.toLowerCase()).join(" ");
+                    const borough = cells[3]?.textContent.toLowerCase(); // Borough is at index 3
+
+                    const matchesSearch = rowText.includes(searchValue);
+                    const matchesBorough = !selectedBorough || borough === selectedBorough;
+
+                    row.style.display = (matchesSearch && matchesBorough) ? "" : "none";
+                });
+            }
+
+            searchInput.addEventListener("input", filterTable);
+            boroughFilter.addEventListener("change", filterTable);
+        });
+    </script>
+}
+

@@ -1,0 +1,58 @@
+@model Final_CollisionsMVC_From_HTML.Models.Collision
+@{
+    ViewData["Title"] = "Delete Collision";
+}
+
+<main class="container">
+    <section class="crud-page">
+        <h2>Delete Collision Record</h2>
+
+        <div class="crud-buttons">
+            <button onclick="location.href='@Url.Action("Create", "Home")'" class="primary-button">Report a Collision</button>
+            <button onclick="location.href='@Url.Action("Read", "Home")'" class="primary-button">View/Update a Collision Record</button>
+        </div>
+
+        <div class="form-container">
+            <h3 style="margin-bottom: 10px; color: black">Are you sure you want to delete this collision?</h3>
+            <dl>
+                <dt>Date</dt>
+                <dd>@(DateTime.TryParse(@Model.crash_date, out var date) ? date.ToString("MM/dd/yyyy") : "N/A")</dd>
+
+                <dt>Time</dt>
+                <dd>@Model.crash_time</dd>
+
+                <dt>Borough</dt>
+                <dd>@Model.borough</dd>
+
+                <dt>Street</dt>
+                <dd>@Model.on_street_name</dd>
+                
+                <dt>ZIP Code</dt>
+                <dd>@Model.zip_code</dd>
+
+                <dt>Injuries</dt>
+                <dd>@Model.number_of_persons_injured</dd>
+
+                <dt>Fatalities</dt>
+                <dd>@Model.number_of_persons_killed</dd>
+            </dl>
+
+            <form asp-action="Delete" method="post">
+                <input type="hidden" name="id" value="@Model.collision_id" />
+                <div class="button-group">
+                    <button type="submit" class="action-btn delete-btn">Delete</button>
+                    <button type="button" onclick="location.href='@Url.Action("Read", "Home")'" class="action-btn cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="crud-explanation">
+        <h3>How "Delete" Works</h3>
+        <p>
+            The <strong>Delete</strong> operation enables users to remove a collision record from the database.
+            Users confirm the deletion, and the record is permanently removed.
+            In the final project, this action will call the backend API to delete the record and update all relevant data displays and charts.
+        </p>
+    </section>
+</main>

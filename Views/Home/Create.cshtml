@@ -1,0 +1,90 @@
+@model Final_CollisionsMVC_From_HTML.Models.Collision
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Record - NYC Motor Vehicle Collisions Dashboard</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+<body>
+    <main class="container">
+        <section class="crud-page">
+            <h2>Create New Collision Record</h2>
+
+            <div class="crud-buttons">
+                <button onclick="location.href='@Url.Action("Create", "Home")'">Report a Collision</button>
+                <button onclick="location.href='@Url.Action("Read", "Home")'">View/Update a Collision Record</button>
+            </div>
+
+            <div class="form-container">
+                <form asp-action="Create" asp-controller="Home" method="post">
+
+                    <div class="form-group">
+                        <label asp-for="collision_id">Collision ID (optional)</label>
+                        <input asp-for="collision_id" class="form-control" placeholder="Leave empty to auto-generate" />
+                        <span asp-validation-for="collision_id" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="crash_date">Crash Date</label>
+                        <input asp-for="crash_date" class="form-control" type="date" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="crash_time">Crash Time</label>
+                        <input asp-for="crash_time" class="form-control" type="time" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="borough">Borough</label>
+                        <select asp-for="borough" class="form-control" required>
+                            <option value="">Select Borough</option>
+                            <option value="MANHATTAN">Manhattan</option>
+                            <option value="BROOKLYN">Brooklyn</option>
+                            <option value="QUEENS">Queens</option>
+                            <option value="BRONX">Bronx</option>
+                            <option value="STATEN ISLAND">Staten Island</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="zip_code">ZIP Code</label>
+                        <input asp-for="zip_code" class="form-control" pattern="[0-9]{5}" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="on_street_name">Street</label>
+                        <input asp-for="on_street_name" class="form-control" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="number_of_persons_injured">Injuries</label>
+                        <input asp-for="number_of_persons_injured" class="form-control" type="number" min="0" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="number_of_persons_killed">Fatalities</label>
+                        <input asp-for="number_of_persons_killed" class="form-control" type="number" min="0" required />
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit" class="primary-button">Create Record</button>
+                        <button type="reset" class="secondary-button">Reset Form</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <section class="crud-explanation">
+        <h3>How "Create" Works</h3>
+        <p>
+            The <strong>Create</strong> operation allows users to add a new motor vehicle collision record to the database.
+            The form is bound to the `Collision` model. When submitted, it sends a POST request to the controller, which saves the record and redirects to the homepage.
+        </p>
+    </section>
+
+</body>
+</html>
