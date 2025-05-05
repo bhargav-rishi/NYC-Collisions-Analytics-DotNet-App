@@ -1,7 +1,7 @@
 # NYC Motor Vehicle Collisions Dashboard
 
 ## Web-Application URL
-ABCDEFG
+[Click here to see our web application](https://nycmotorvehiclecollisionsdashboard-f9f2cbaya5a9cpg8.canadacentral-01.azurewebsites.net)
 
 ## Overview
 We have built a dynamic web application that provides insights into motor vehicle collisions across New York City using MVC architecture and API-based data management to leverage publicly available data which supports the analysis of collision frequency and their impact on public safety.​
