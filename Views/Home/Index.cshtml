@@ -1,0 +1,29 @@
+@model List<Final_CollisionsMVC_From_HTML.Models.Collision>
+@{
+    ViewData["Title"] = "Home";
+}
+<main class="container">
+<section class="intro">
+    <h2>Welcome to NYC Motor Vehicle Collisions Dashboard</h2>
+    <p>This dashboard provides insights into motor vehicle collisions across New York City. It leverages publicly available data to support the analysis of collision frequency, contributing factors, and their impact on public safety.</p>
+
+    <h3>Project Purpose:</h3>
+    <p>The primary objective of this platform is to make crash data easy to understand. By providing visual insights, the dashboard helps people, city planners, and safety experts make better decisions and promote safer streets.</p>
+
+    <h3>Key Features:</h3>
+    <ul class="bullets">
+        <li>Interactive data visualizations using Chart.js</li>
+        <li>Insights into collisions categorized by borough, injury severity, and contributing causes</li>
+        <li>Buttons that simulate adding, viewing, updating, and deleting collision data</li>
+    </ul>
+</section>
+
+    <section class="crud-navigation">
+        <h2>Manage Data</h2>
+        <p>Click a button to report a new collision, view existing records, make updates, or remove entries:</p>
+        <div class="crud-buttons">
+            <button onclick="location.href='@Url.Action("Create", "Home")'">Report a Collision</button>
+            <button onclick="location.href='@Url.Action("Read", "Home")'">View/Update a Collision Record</button>
+        </div>
+    </section>
+</main>

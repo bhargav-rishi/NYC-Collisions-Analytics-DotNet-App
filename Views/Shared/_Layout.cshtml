@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - MVC Collisions</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>NYC Motor Vehicle Collisions Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/Home/Visualization">Visualization</a></li>
+                    <li><a href="/Home/About">About</a></li>
+            </ul>
+            
+        </nav>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+        @RenderSection("Scripts", required: false)
+    </main>
+    <footer><p>&copy; 2025 Motor Vehicle Collisions App</p></footer>
+    <script src="~/js/charts.js"></script>
+    <script src="~/js/script.js"></script>
+</body>
+</html>
