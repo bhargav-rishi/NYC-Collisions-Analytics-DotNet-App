@@ -1,7 +1,8 @@
 # NYC Motor Vehicle Collisions Dashboard
 
-## Web-Application URL
-[Click here to see our web application](https://nycmotorvehiclecollisionsdashboard-f9f2cbaya5a9cpg8.canadacentral-01.azurewebsites.net)
+![Built With](https://img.shields.io/badge/Built%20With-C%23%20%7C%20ASP.NET%20MVC-blue)
+![Language](https://img.shields.io/badge/Language-C%23-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Overview
 We have built a dynamic web application that provides insights into motor vehicle collisions across New York City using MVC architecture and API-based data management to leverage publicly available data which supports the analysis of collision frequency and their impact on public safety.​
@@ -23,6 +24,6 @@ We have built a dynamic web application that provides insights into motor vehicl
 ## Technical Stack
 - **Frontend**: Razor Views (HTML, CSS, Bootstrap)
 - **Backend**: ASP.NET Core MVC, C#
-- **APIs**: NYC Open Data - Motor Vehicle Collisions
+- **APIs**: [NYC Open Data - Motor Vehicle Collisions](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) 
 - **Database**: In-memory Singleton service
 - **Deployment**: Microsoft Azure
