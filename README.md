@@ -1,4 +1,4 @@
-# NYC Motor Vehicle Collisions Dashboard
+# NYC Collisions Analytics – ASP.NET Core MVC App
 
 ![Built With](https://img.shields.io/badge/Built%20With-C%23%20%7C%20ASP.NET%20MVC-blue)
 ![Language](https://img.shields.io/badge/Language-C%23-orange)
@@ -6,6 +6,8 @@
 
 ## Overview
 We have built a dynamic web application that provides insights into motor vehicle collisions across New York City using MVC architecture and API-based data management to leverage publicly available data which supports the analysis of collision frequency and their impact on public safety.​
+
+The project was developed as part of the Application Development for Analytics course at the **University of South Florida - Muma College of Business**
 
 ## Objectives
 - Develop a dynamic web application using the MVC architecture.
