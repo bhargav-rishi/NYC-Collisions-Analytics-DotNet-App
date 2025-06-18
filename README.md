@@ -24,6 +24,6 @@ We have built a dynamic web application that provides insights into motor vehicl
 ## Technical Stack
 - **Frontend**: Razor Views (HTML, CSS, Bootstrap)
 - **Backend**: ASP.NET Core MVC, C#
-- **APIs**: [NYC Open Data - Motor Vehicle Collisions](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) 
+- **APIs**: [NYC Open Data - Motor Vehicle Collisions](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data)
 - **Database**: In-memory Singleton service
 - **Deployment**: Microsoft Azure
