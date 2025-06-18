@@ -27,3 +27,11 @@ We have built a dynamic web application that provides insights into motor vehicl
 - **APIs**: [NYC Open Data - Motor Vehicle Collisions](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data)
 - **Database**: In-memory Singleton service
 - **Deployment**: Microsoft Azure
+
+## Authors
+- Bhargav Rishi Medisetti
+- Chi Phuong Diep
+- Safiya Joseph
+- Sudhamshu Karthik Reddy Nagaiahgari  
+
+Muma College of Business – University of South Florida
